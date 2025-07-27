@@ -44,7 +44,7 @@ body {
 
 #home-section {
   height: 100vh;
-  background-image: url('BG IMAGE 1.jpg'); 
+  background-image: url(public/Images/BG\ IMAGE\ 1.jpg); 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -83,64 +83,54 @@ body {
   }
 }
 
+
+.hidden{
+  display: none;
+}
+
+#availability-container {
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.763);
+  color: rgb(95, 93, 93);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#availability-container input,
+#availability-container select {
+  
+  width: 100%;
+  padding: 5px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  color: #686765;
+}
+
+
+
+
 .btn-home {
   display: inline-block;
   padding: 0.9rem 1.8rem;
   font-size: 16px;
   font-weight: 700;
   color: white;
-  cursor: pointer;
-  position: relative;
   background-color: #8c7c5d;
   text-decoration: none;
-  overflow: hidden;
-  z-index: 1;
-  border: 2px solid #d6cfcf; 
+  border: 2px solid #624545;
   border-radius: 8px;
-  transition: all 0.3s ease;
-}
-
-.btn-home::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #b7954b; 
-  transform: translateX(-100%);
-  transition: transform 0.3s ease;
-  z-index: -1;
-}
-
-.btn-home:hover::before {
-  transform: translateX(0);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
 }
 
 .btn-home:hover {
-  color: #1a1a1a; 
-  border-color: #b7954b;
+  transform: scale(1.05);
 }
-
-.text {
-  color: inherit;
-  font-weight: 700;
-  font-family: 'Playfair Display', serif;
-  margin: auto;
-  transition: transform 0.3s ease;
-  width: fit-content;
-}
-
-.button:hover .text {
-  transform: scale(0.95);
-}
-
-.button:active .text {
-  transform: scale(0.9);
-}
-
-
-
 
 #about-section {
   background-color: white;
