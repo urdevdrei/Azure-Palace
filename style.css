@@ -72,6 +72,13 @@ body {
   padding: 20px;
 }
 
+@media (max-width: 480px) {
+  #home-section {
+    background-position: top center;
+  }
+}
+
+
 .home-title {
   display: flex;
   flex-direction: column;
