@@ -3,9 +3,11 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
   <link rel="stylesheet" href="home.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Mulish&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Mulish&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
   <head>
     <title>Azure Palace</title>
@@ -45,10 +47,12 @@
   <div class="home-title">
     <div class="header-home">
       <h1 id="azure-palace">AZURE PALACE</h1>
+      <p id="home-tagline"> A Place to Breathe, Be, and Belong. </p>
     </div>
     <button class="btn-home">
-      <div class="text">BOOK NOW</div>
+      <div class="text">CHECK AVAILABILITY</div>
     </button>
+    
   </div>
 </div>
 
@@ -56,146 +60,111 @@
 
 <div id="about-section">
 
-    <div class="about-left"> 
-        <h1> ABOUT US</h1>
-          <p> The passage experienced a surge in popularity during <br>
-              the 1960s when Letraset used it on their dry-transfer <br>
-              sheets, and again during the 90s as desktop publishers <br>
-              bundled the text with their software. Today it's seen <br>
-              all around the web; on templates, websites, and stock <br>
-              designs. Use our generator to get your own, or read on <br>
-              for the authoritative history of lorem ipsum.</p>
+  <div class="about-left" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100"> 
+    <h1> ABOUT US</h1>
+    <p>
+      Azure Palace is a peaceful seaside escape where comfort and quiet elegance come together.
+      Surrounded by ocean views and golden skies, it's a place to rest, recharge, and slow down.
+      Every detail is inspired by the calm beauty of nature and designed to make you feel at home.
+      Whether you're here for a quick getaway or a longer retreat, we welcome you with warmth and simplicity.
+      At Azure Palace, your escape begins the moment you arrive.
+    </p>
+    <button class="btn-about"> <span>Read More</span></button>
+  </div>
 
-        <button class="btn-about"> <span>Read More</span></button>
+  <div class="about-right" data-aos="fade-left">
+    <img src="COLLAGE PIC.jpg" alt="">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="..."></path></svg>
+    <div class="card__content">
+      <p class="card__title">Azure Palace</p>
+      <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt...</p>
     </div>
+  </div>
 
-    <div class="about-right">
-      <img src="BG IMAGE 2.jpg" alt="">
-        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
-        <div class="card__content">
-        <p class="card__title">Card Title
-        </p><p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-        </div>
-    </div>
 </div>
+
 
 <div id="our-room">
 
-    <div class="room-title">
+    <div class="room-title" data-aos="fade-up">
         <h1> OUR ROOM </h1>
     </div>
 
     <div class="container">
 
-  <div class="card-room">
+  <div class="card-room" data-aos="fade-up">
   <div class="img-box">
-    <img src="ROOM 1.jpg" alt="Room 1">
+    <img src="PREMIUM KING BED.jpeg" alt="Room 1">
     <div class="room-details">
       <h3>Premium King Room</h3>
-      <p>King-size bed, Free Wi-Fi, AC, Sea view</p>
-      <p><strong>$120/night</strong></p>
+      <p>A spacious room with a king-size bed, ideal for couples seeking comfort and style.</p>
+      <p><strong>₱5,500 – ₱7,000</strong></p>
     </div>
   </div>
   <h2> Premium King Room</h2>
 </div>
 
 
-   <div class="card-room">
+  <div class="card-room" data-aos="fade-up" data-aos-delay="100">
   <div class="img-box">
-    <img src="ROOM 1.jpg" alt="Room 1">
+    <img src="DELUXE ROOM.avif" alt="Room 1">
     <div class="room-details">
       <h3>Deluxe Room</h3>
-      <p>King-size bed, Free Wi-Fi, AC, Sea view</p>
-      <p><strong>$120/night</strong></p>
+      <p>Elegant and roomy, offering upgraded comfort for a more refined stay.</p>
+      <p><strong>₱6,000 – ₱8,000</strong></p>
     </div>
   </div>
   <h2>Deluxe Room</h2>
 </div>
 
-   <div class="card-room">
+  <div class="card-room" data-aos="fade-up" data-aos-delay="200">
   <div class="img-box">
-    <img src="ROOM 1.jpg" alt="Room 1">
+    <img src="DOUBLE ROOM.jpg" alt="Room 1">
     <div class="room-details">
       <h3>Double Room</h3>
-      <p>King-size bed, Free Wi-Fi, AC, Sea view</p>
-      <p><strong>$120/night</strong></p>
+      <p>Cozy and simple, perfect for two guests with either one large bed or two singles.</p>
+      <p><strong>₱3,500 – ₱4,500</strong></p>
     </div>
   </div>
   <h2>Double Room</h2>
 </div>
 
-   <div class="card-room">
+  <div class="card-room" data-aos="fade-up" data-aos-delay="300">
   <div class="img-box">
-    <img src="ROOM 1.jpg" alt="Room 1">
+    <img src="FAMILY ROOM.jpg" alt="Room 1">
     <div class="room-details">
       <h3>Family Room</h3>
-      <p>King-size bed, Free Wi-Fi, AC, Sea view</p>
-      <p><strong>$120/night</strong></p>
+      <p>Spacious and family-friendly, designed for larger groups with multiple beds.</p>
+      <p><strong>	₱6,500 – ₱8,500</strong></p>
     </div>
   </div>
   <h2>Family Room</h2>
 </div>
 
-   <div class="card-room">
+  <div class="card-room" data-aos="fade-up" data-aos-delay="400">
   <div class="img-box">
-    <img src="ROOM 1.jpg" alt="Room 1">
+    <img src="TRIPLE ROOM.jpg" alt="Room 1">
     <div class="room-details">
       <h3>Triple Room</h3>
-      <p>King-size bed, Free Wi-Fi, AC, Sea view</p>
-      <p><strong>$120/night</strong></p>
+      <p>Great for small groups or families, with space for three and all essential comforts.</p>
+      <p><strong>	₱4,500 – ₱5,500</strong></p>
     </div>
   </div>
   <h2>Triple Room</h2>
 </div>
 
-   <div class="card-room">
+  <div class="card-room" data-aos="fade-up" data-aos-delay="500">
   <div class="img-box">
-    <img src="ROOM 1.jpg" alt="Room 1">
+    <img src="QUAD ROOM.jpg" alt="Room 1">
     <div class="room-details">
       <h3>Quad Room</h3>
-      <p>King-size bed, Free Wi-Fi, AC, Sea view</p>
-      <p><strong>$120/night</strong></p>
+      <p>Comfortable and convenient for four guests — ideal for families or friends.</p>
+      <p><strong>₱5,500 – ₱6,500</strong></p>
     </div>
   </div>
   <h2>Quad Room</h2>
 </div>
-
-<div class="card-room">
-  <div class="img-box">
-    <img src="ROOM 1.jpg" alt="Room 1">
-    <div class="room-details">
-      <h3>Double Room</h3>
-      <p>King-size bed, Free Wi-Fi, AC, Sea view</p>
-      <p><strong>$120/night</strong></p>
-    </div>
-  </div>
-  <h2>Double Room</h2>
-</div>
-
-<div class="card-room">
-  <div class="img-box">
-    <img src="ROOM 1.jpg" alt="Room 1">
-    <div class="room-details">
-      <h3>Double Room</h3>
-      <p>King-size bed, Free Wi-Fi, AC, Sea view</p>
-      <p><strong>$120/night</strong></p>
-    </div>
-  </div>
-  <h2>Double Room</h2>
-</div>
-
-<div class="card-room">
-  <div class="img-box">
-    <img src="ROOM 1.jpg" alt="Room 1">
-    <div class="room-details">
-      <h3>Double Room</h3>
-      <p>King-size bed, Free Wi-Fi, AC, Sea view</p>
-      <p><strong>$120/night</strong></p>
-    </div>
-  </div>
-  <h2>Double Room</h2>
-</div>
-    
+  
 </div>
 </div>
 
@@ -204,7 +173,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12 col-md-10 col-lg-8">
-        <h3 id="contact-title">CONTACT </h3>
+        <h3 id="contact-title" data-aos="fade-left">CONTACT</h3>
       </div>
     </div>
   </div>
@@ -212,9 +181,9 @@
   <div class="container">
     <div class="row gy-4 gy-md-5 gy-lg-0 align-items-md-center">
       <div class="col-12 col-lg-6">
-        <div class="border overflow-hidden">
+        <div class="border-contact">
 
-          <form action="#!">
+          <form action="#!" class="contact-left" data-aos="fade-left" data-aos-delay="100">
             <div class="row gy-4 gy-xl-5 p-4 p-xl-5">
               <div class="col-12">
                 <label for="fullname" class="form-label">Full Name <span class="text-danger">*</span></label>
@@ -260,7 +229,8 @@
 
         </div>
       </div>
-      <div class="col-12 col-lg-6">
+
+      <div class="col-12 col-lg-6" data-aos="fade-left" data-aos-delay="200">
         <div class="row justify-content-xl-center">
           <div class="col-12 col-xl-11">
             <div class="mb-4 mb-md-5">
@@ -340,9 +310,48 @@
   </div>
 </section>
 
+<footer class="custom-footer">
+  <div class="footer-container">
+    <h2 class="footer-brand">AZURE PALACE</h2>
+
+    <ul class="footer-links">
+      <li><a href="#home-section">Home</a></li>
+      <li><a href="#about-section">About</a></li>
+      <li><a href="#our-room">Our Room</a></li>
+      <li><a href="#contact-title">Contact</a></li>
+    </ul>
+
+    <div class="footer-socials">
+      <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="mailto:yourname@gmail.com" aria-label="Email">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Azure Palace. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
 
 
 
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({
+      once: false,
+      duration: 1000, 
+      easing: 'ease-in-out', 
+      });
+</script>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
