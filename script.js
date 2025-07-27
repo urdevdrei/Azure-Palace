@@ -17,8 +17,14 @@ function sendMsg(e) {
   alert("Thank you for your message. We will get back to you soon!");
   e.target.reset();
 }
-
 form.addEventListener("submit", sendMsg);
+
+
+window.addEventListener('load', function () {
+  const preloader = document.getElementById('preloader');
+  preloader.classList.add('fade-out');
+});
+
 
 
 

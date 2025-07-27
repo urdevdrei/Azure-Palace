@@ -5,6 +5,23 @@ body {
 
 }
 
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(255, 255, 255); 
+  z-index: 9999;
+  transition: opacity 0.5s ease;
+}
+#preloader.fade-out {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+
 .navbar {
   background-color: transparent !important;
   transition: background-color 0.3s ease;
