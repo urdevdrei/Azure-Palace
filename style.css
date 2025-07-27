@@ -128,6 +128,15 @@ body {
   color: #686765;
 }
 
+@media (max-width: 600px) {
+  form {
+    flex-direction: column;
+  }
+
+  .full-width {
+    text-align: center;
+  }
+}
 
 
 
